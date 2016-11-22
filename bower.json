@@ -1,0 +1,27 @@
+{
+  "name": "purescript-react-native-vector-icons",
+  "description": "A purescript wraper for react-native-vector-icons",
+  "authors": [
+    "vishnu prasad"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "purescript",
+    "react",
+    "native",
+    "icons",
+    "vector"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "purescript-rnx" : "^0.1.2-alpha"
+  }
+}

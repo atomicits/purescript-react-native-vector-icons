@@ -1,0 +1,12 @@
+{
+  "name": "purescript-react-native-vector-icons",
+  "version": "1.0.0",
+  "description": "A purescript wraper for react-native-vector-icons",
+  "main": "index.js",
+  "repository": "atomicits/purescript-react-native-vector-icons",
+  "author": "vishnu prasad",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-vector-icons": "^3.0.0"
+  }
+}
