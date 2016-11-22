@@ -1,0 +1,1 @@
+# purescript-react-native-vector-icons
