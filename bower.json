@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-      "purescript-rnx" : "^0.1.2-alpha"
+      "purescript-rnx" : "^0.1.2-alpha",
+      "purescript-react": "^2.0.0"
   }
 }

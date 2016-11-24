@@ -7,29 +7,31 @@ module RNVectorIcons
        )
        where
 
-import RNX.Components
-import RNX.Props (unsafeMkProps)
+
 import RNX.Styles (StyleId)
+import React (ReactElement, ReactClass, createElement)
+import React.DOM.Props (unsafeMkProps, Props)
+
 
 foreign import fontAwesomeIconClass :: forall props. ReactClass props
 foreign import fontAwesomeIconButtonClass :: forall props. ReactClass props
 
 
-fontAwesomeIcon :: forall action. Array (Prop action) -> Element action
+fontAwesomeIcon :: Array Props -> ReactElement
 fontAwesomeIcon props = createElement fontAwesomeIconClass props []
 
 
-fontAwesomeIconButton :: forall action. Array (Prop action) -> Array (Element action) -> Element action
+fontAwesomeIconButton :: Array Props -> Array (ReactElement) -> ReactElement
 fontAwesomeIconButton = createElement fontAwesomeIconButtonClass
 
 
-iconName :: forall action. String -> Prop action
+iconName :: String -> Props
 iconName = unsafeMkProps "name"
 
 
-iconStyle :: forall action. StyleId -> Prop action
+iconStyle :: StyleId -> Props
 iconStyle = unsafeMkProps "iconStyle"
 
 
-borderRadius ::  forall action. Int -> Prop action
+borderRadius :: Int -> Props
 borderRadius = unsafeMkProps "borderRadius"
